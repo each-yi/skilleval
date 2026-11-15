@@ -1,0 +1,230 @@
+{
+  "baseline/dev": {
+    "n": 18,
+    "accuracy": 0.9444444444444444,
+    "macro_f1": 0.9474747474747476,
+    "failure_rates": {
+      "오선택": 0.0,
+      "누락": 0.05555555555555555,
+      "과잉선택": 0.0,
+      "API오류": 0.0
+    },
+    "failure_counts": {
+      "오선택": 0,
+      "누락": 1,
+      "과잉선택": 0,
+      "API오류": 0
+    },
+    "per_label": {
+      "PAPER": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "EXPERIMENT": {
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1": 0.9090909090909091,
+        "support": 6
+      },
+      "NONE": {
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333333333333333,
+        "support": 7
+      }
+    },
+    "confusion": {
+      "PAPER": {
+        "PAPER": 5,
+        "EXPERIMENT": 0,
+        "NONE": 0,
+        "ERROR": 0
+      },
+      "EXPERIMENT": {
+        "PAPER": 0,
+        "EXPERIMENT": 5,
+        "NONE": 1,
+        "ERROR": 0
+      },
+      "NONE": {
+        "PAPER": 0,
+        "EXPERIMENT": 0,
+        "NONE": 7,
+        "ERROR": 0
+      }
+    }
+  },
+  "improved/dev": {
+    "n": 18,
+    "accuracy": 0.9444444444444444,
+    "macro_f1": 0.9474747474747476,
+    "failure_rates": {
+      "오선택": 0.0,
+      "누락": 0.05555555555555555,
+      "과잉선택": 0.0,
+      "API오류": 0.0
+    },
+    "failure_counts": {
+      "오선택": 0,
+      "누락": 1,
+      "과잉선택": 0,
+      "API오류": 0
+    },
+    "per_label": {
+      "PAPER": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "EXPERIMENT": {
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1": 0.9090909090909091,
+        "support": 6
+      },
+      "NONE": {
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333333333333333,
+        "support": 7
+      }
+    },
+    "confusion": {
+      "PAPER": {
+        "PAPER": 5,
+        "EXPERIMENT": 0,
+        "NONE": 0,
+        "ERROR": 0
+      },
+      "EXPERIMENT": {
+        "PAPER": 0,
+        "EXPERIMENT": 5,
+        "NONE": 1,
+        "ERROR": 0
+      },
+      "NONE": {
+        "PAPER": 0,
+        "EXPERIMENT": 0,
+        "NONE": 7,
+        "ERROR": 0
+      }
+    }
+  },
+  "baseline/test": {
+    "n": 16,
+    "accuracy": 0.9375,
+    "macro_f1": 0.9373219373219372,
+    "failure_rates": {
+      "오선택": 0.0,
+      "누락": 0.0625,
+      "과잉선택": 0.0,
+      "API오류": 0.0
+    },
+    "failure_counts": {
+      "오선택": 0,
+      "누락": 1,
+      "과잉선택": 0,
+      "API오류": 0
+    },
+    "per_label": {
+      "PAPER": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "EXPERIMENT": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.888888888888889,
+        "support": 5
+      },
+      "NONE": {
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "f1": 0.923076923076923,
+        "support": 6
+      }
+    },
+    "confusion": {
+      "PAPER": {
+        "PAPER": 5,
+        "EXPERIMENT": 0,
+        "NONE": 0,
+        "ERROR": 0
+      },
+      "EXPERIMENT": {
+        "PAPER": 0,
+        "EXPERIMENT": 4,
+        "NONE": 1,
+        "ERROR": 0
+      },
+      "NONE": {
+        "PAPER": 0,
+        "EXPERIMENT": 0,
+        "NONE": 6,
+        "ERROR": 0
+      }
+    }
+  },
+  "improved/test": {
+    "n": 16,
+    "accuracy": 0.9375,
+    "macro_f1": 0.9373219373219372,
+    "failure_rates": {
+      "오선택": 0.0,
+      "누락": 0.0625,
+      "과잉선택": 0.0,
+      "API오류": 0.0
+    },
+    "failure_counts": {
+      "오선택": 0,
+      "누락": 1,
+      "과잉선택": 0,
+      "API오류": 0
+    },
+    "per_label": {
+      "PAPER": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "EXPERIMENT": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.888888888888889,
+        "support": 5
+      },
+      "NONE": {
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "f1": 0.923076923076923,
+        "support": 6
+      }
+    },
+    "confusion": {
+      "PAPER": {
+        "PAPER": 5,
+        "EXPERIMENT": 0,
+        "NONE": 0,
+        "ERROR": 0
+      },
+      "EXPERIMENT": {
+        "PAPER": 0,
+        "EXPERIMENT": 4,
+        "NONE": 1,
+        "ERROR": 0
+      },
+      "NONE": {
+        "PAPER": 0,
+        "EXPERIMENT": 0,
+        "NONE": 6,
+        "ERROR": 0
+      }
+    }
+  }
+}

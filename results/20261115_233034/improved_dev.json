@@ -1,0 +1,197 @@
+{
+  "metrics": {
+    "n": 18,
+    "accuracy": 0.9444444444444444,
+    "macro_f1": 0.9474747474747476,
+    "failure_rates": {
+      "오선택": 0.0,
+      "누락": 0.05555555555555555,
+      "과잉선택": 0.0,
+      "API오류": 0.0
+    },
+    "failure_counts": {
+      "오선택": 0,
+      "누락": 1,
+      "과잉선택": 0,
+      "API오류": 0
+    },
+    "per_label": {
+      "PAPER": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "EXPERIMENT": {
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1": 0.9090909090909091,
+        "support": 6
+      },
+      "NONE": {
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333333333333333,
+        "support": 7
+      }
+    },
+    "confusion": {
+      "PAPER": {
+        "PAPER": 5,
+        "EXPERIMENT": 0,
+        "NONE": 0,
+        "ERROR": 0
+      },
+      "EXPERIMENT": {
+        "PAPER": 0,
+        "EXPERIMENT": 5,
+        "NONE": 1,
+        "ERROR": 0
+      },
+      "NONE": {
+        "PAPER": 0,
+        "EXPERIMENT": 0,
+        "NONE": 7,
+        "ERROR": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "d01",
+      "question": "두 모델의 F1-score를 비교해줘",
+      "gold": "EXPERIMENT",
+      "pred": "EXPERIMENT",
+      "reason": "mock: 성능 지표 키워드"
+    },
+    {
+      "id": "d02",
+      "question": "BERT는 정확도 91.2%, RoBERTa는 92.5%인데 차이가 유의미한 수준이야?",
+      "gold": "EXPERIMENT",
+      "pred": "EXPERIMENT",
+      "reason": "mock: 성능 지표 키워드"
+    },
+    {
+      "id": "d03",
+      "question": "학습 loss는 계속 떨어지는데 validation loss가 올라가. 이 실험 결과 어떻게 해석해야 해?",
+      "gold": "EXPERIMENT",
+      "pred": "EXPERIMENT",
+      "reason": "mock: 성능 지표 키워드"
+    },
+    {
+      "id": "d04",
+      "question": "learning rate 1e-3과 1e-4로 돌린 결과표 줄게, 어느 설정이 나은지 판단해줘",
+      "gold": "EXPERIMENT",
+      "pred": "NONE",
+      "reason": "mock: 매칭 키워드 없음"
+    },
+    {
+      "id": "d05",
+      "question": "precision은 높은데 recall이 낮게 나왔어. 우리 분류기 결과 분석해줘",
+      "gold": "EXPERIMENT",
+      "pred": "EXPERIMENT",
+      "reason": "mock: 성능 지표 키워드"
+    },
+    {
+      "id": "d06",
+      "question": "Attention Is All You Need 논문의 핵심 기여가 뭐야?",
+      "gold": "PAPER",
+      "pred": "PAPER",
+      "reason": "mock: 논문 키워드"
+    },
+    {
+      "id": "d07",
+      "question": "이 논문 초록 읽고 방법론을 요약해줘: 우리는 대조학습 기반의 새로운 사전학습 기법을 제안한다...",
+      "gold": "PAPER",
+      "pred": "PAPER",
+      "reason": "mock: 논문 키워드"
+    },
+    {
+      "id": "d08",
+      "question": "ResNet 논문의 한계점은 뭐라고 생각해?",
+      "gold": "PAPER",
+      "pred": "PAPER",
+      "reason": "mock: 논문 키워드"
+    },
+    {
+      "id": "d09",
+      "question": "LoRA 논문이 기존 adapter 연구와 어떤 점에서 다른지 설명해줘",
+      "gold": "PAPER",
+      "pred": "PAPER",
+      "reason": "mock: 논문 키워드"
+    },
+    {
+      "id": "d10",
+      "question": "내가 읽고 있는 논문에서 제안한 손실 함수가 왜 효과적인지 분석해줘",
+      "gold": "PAPER",
+      "pred": "PAPER",
+      "reason": "mock: 논문 키워드"
+    },
+    {
+      "id": "d11",
+      "question": "트랜스포머가 뭐야? 쉽게 설명해줘",
+      "gold": "NONE",
+      "pred": "NONE",
+      "reason": "mock: 매칭 키워드 없음"
+    },
+    {
+      "id": "d12",
+      "question": "AI가 일자리에 미치는 영향에 대해 어떻게 생각해?",
+      "gold": "NONE",
+      "pred": "NONE",
+      "reason": "mock: 매칭 키워드 없음"
+    },
+    {
+      "id": "d13",
+      "question": "연구실 IRB 승인 절차는 어떻게 진행돼?",
+      "gold": "NONE",
+      "pred": "NONE",
+      "reason": "mock: 매칭 키워드 없음"
+    },
+    {
+      "id": "d14",
+      "question": "파이썬에서 리스트를 내림차순으로 정렬하는 방법 알려줘",
+      "gold": "NONE",
+      "pred": "NONE",
+      "reason": "mock: 매칭 키워드 없음"
+    },
+    {
+      "id": "d15",
+      "question": "대학원 연구계획서 작성 팁 좀 알려줘",
+      "gold": "NONE",
+      "pred": "NONE",
+      "reason": "mock: 매칭 키워드 없음"
+    },
+    {
+      "id": "d16",
+      "question": "ChatGPT 같은 챗봇 서비스 추천해줘",
+      "gold": "NONE",
+      "pred": "NONE",
+      "reason": "mock: 매칭 키워드 없음"
+    },
+    {
+      "id": "d17",
+      "question": "오늘 점심 메뉴 추천해줘",
+      "gold": "NONE",
+      "pred": "NONE",
+      "reason": "mock: 매칭 키워드 없음"
+    },
+    {
+      "id": "d18",
+      "question": "이 논문 Table 3에 나온 우리 모델과 베이스라인의 AUC 수치를 비교해줘",
+      "gold": "EXPERIMENT",
+      "pred": "EXPERIMENT",
+      "reason": "mock: 성능 지표 키워드"
+    }
+  ],
+  "failures": [
+    {
+      "id": "d04",
+      "question": "learning rate 1e-3과 1e-4로 돌린 결과표 줄게, 어느 설정이 나은지 판단해줘",
+      "gold": "EXPERIMENT",
+      "pred": "NONE",
+      "reason": "mock: 매칭 키워드 없음",
+      "failure_type": "누락"
+    }
+  ]
+}

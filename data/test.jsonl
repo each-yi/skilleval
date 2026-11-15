@@ -1,0 +1,16 @@
+{"id": "t01", "question": "모델 A의 macro-F1이 0.78, 모델 B가 0.81이야. 어느 쪽을 배포해야 할까?", "label": "EXPERIMENT"}
+{"id": "t02", "question": "5-fold 교차검증 결과 정확도 편차가 커. 실험 설계에 문제가 있는지 봐줘", "label": "EXPERIMENT"}
+{"id": "t03", "question": "batch size 32와 128의 학습 곡선을 비교 분석해줘", "label": "EXPERIMENT"}
+{"id": "t04", "question": "베이스라인 대비 성능이 2%p 올랐는데 seed를 하나만 돌렸어. 이 결과 믿을 만해?", "label": "EXPERIMENT"}
+{"id": "t05", "question": "GPT-3 논문에서 말하는 in-context learning의 기여를 정리해줘", "label": "PAPER"}
+{"id": "t06", "question": "Vision Transformer 논문의 방법론과 한계를 분석해줘", "label": "PAPER"}
+{"id": "t07", "question": "첨부한 논문 본문 기준으로 저자들이 주장하는 novelty가 타당한지 검토해줘", "label": "PAPER"}
+{"id": "t08", "question": "Dropout 논문이 이후 연구에 어떤 영향을 줬고 어떤 한계가 지적됐어?", "label": "PAPER"}
+{"id": "t09", "question": "강화학습이 뭔지 개념만 간단히 알려줘", "label": "NONE"}
+{"id": "t10", "question": "연구비 정산할 때 필요한 서류가 뭐야?", "label": "NONE"}
+{"id": "t11", "question": "AI 윤리 가이드라인에는 어떤 내용이 들어가야 해?", "label": "NONE"}
+{"id": "t12", "question": "numpy 배열을 리스트로 바꾸는 코드 알려줘", "label": "NONE"}
+{"id": "t13", "question": "요즘 인기 있는 AI 관련 유튜브 채널 알려줘", "label": "NONE"}
+{"id": "t14", "question": "학회 발표 자료 디자인 팁 좀 줘", "label": "NONE"}
+{"id": "t15", "question": "이 논문 실험 섹션의 precision/recall 수치로 보면 제안 모델이 정말 더 나아?", "label": "EXPERIMENT"}
+{"id": "t16", "question": "이 논문은 실험 결과보다 이론적 기여가 핵심이라는데, 그 기여가 뭔지 설명해줘", "label": "PAPER"}
